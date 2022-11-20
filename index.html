@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="rockpaperscissors.js"></script>
+    <script src="rockpaperscissors.js" defer></script>
+    <link rel='stylesheet' href="style.css">
 </head>
 <body>
+    <!--
+    <div>
+        <img src='images/background.jpg' class="background">
+    </div>
+    -->
+    <div class="rules">
+        <p>Welcome to Rock Paper Scissors - AOE Edition!</p>
+        <p>The rules are simple : Knights counter Crossbows. Crossbows counter Pikes. Pikes counter Knights</p>
+        <p>First to win 3 rounds wins the game!</p>
+        <h3>Choose your unit!</h3>
+    </div>
+    <div class="icons">
+        <div class="icon" id="Knight"><img src='images/knight.jpeg' alt="Knight"></div>
+        <div class="icon" id="Crossbow"><img src='images/crossbow.jpeg' alt="Crossbow"></div>
+        <div class="icon" id="Pikeman"><img src='images/pikeman.jpeg' alt="Pikeman"></div>
+    </div>
+    <div class="choices">
+        <div class="playerchoice"></div>
+        <div class="computerchoice"></div>
+    </div>
+    <div class="roundresult">
+    </div>
+    <div id="retry"></div>
+    <div class="scorecard">
+        <div class=>Player score : <span class="playerscore"></span></div>
+        <div class>Computer score :<span class="computerscore"></span></div>
+    </div>
 </body>
 </html>

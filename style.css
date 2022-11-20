@@ -1,0 +1,49 @@
+/*
+body {
+    background-image: url('images/greenarabia.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight:600;
+}
+*/
+.rules{
+    padding-top:100px;
+    text-align:center;
+    font-weight:600;
+    font-size:large;
+}
+.icons{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon img{
+    height:150px;
+}
+.roundresult{
+    text-align:center;
+    font-size:large;
+    font-weight:300;
+    margin-top:50px;
+}
+.scorecard{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+    margin:50px 100px;
+}
+.choices{
+    margin-top:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#retry{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
